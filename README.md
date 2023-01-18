@@ -25,11 +25,11 @@ This is a simple social media website that allows you to connect with your close
 
 
 Key Features:
-Secure Login
-Ability to vote for option 
-Ability to add friends 
-Ability to create new groups 
-Ability to make any question 
-Ability to store information of votes 
-Ability to change suggestions for group 
+Secure Login,
+Ability to vote for option, 
+Ability to add friends,
+Ability to create new groups, 
+Ability to make any question, 
+Ability to store information of votes, 
+Ability to change suggestions for group, 
 
