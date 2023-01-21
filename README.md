@@ -33,3 +33,9 @@ Ability to make any question,
 Ability to store information of votes, 
 Ability to change suggestions for group, 
 
+
+//Amazon Web Services 
+http://3.12.70.15/ <- My Server
+ssh -i [key pair file] ubuntu@[ip address] <- SSH 
+
+
