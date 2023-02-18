@@ -3,6 +3,10 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+<head>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
 <body>
 
     <header>
@@ -10,29 +14,42 @@
         <p>Made by David Hernandez</p>
     </header>
 
+    <div class="container1">
 
-    <h2>Login</h2>
+        <h2>Login</h2>
 
-    <form action="/action_page.php">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" />
-        <input type="submit" />
-    </form>
+        <p>
+        <form action="/action_page.php">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" />
+            <input type="submit" />
+        </form>
+        </p>
 
-    <form action="/action_page.php">
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" />
-        <input type="submit" />
-    </form>
-    
+        <p>
+        <form action="/action_page.php">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" />
+            <input type="submit" />
+        </form>
+        </p>
 
-    <p><a href="forgotpassword.com">Forgot Password?</a></p> <!-- This link is fake -->
+        <p>
+            <input type="checkbox" value="lsRememberMe" id="rememberMe" />
+            <label for="rememberMe">Remember me</label>
+        </p>
 
-    <input type="checkbox" value="lsRememberMe" id="rememberMe"> <label for="rememberMe">Remember me</label>
+        <p>
+            <a href="forgotpassword.com" class="button2">Forgot Password</a> <!-- This link is fake -->
+        </p>
+        
 
-    <a id="Signup-button" ms-hide-element="true" href="" class="Signup">Sign Up</a>
+    </div>
 
+    <div class="container2">
 
+        <input type="button" class="button" value="Sign Up!" />
+    </div>
 
 </body>
 

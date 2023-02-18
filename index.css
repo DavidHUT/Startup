@@ -1,0 +1,57 @@
+body {
+    background-color:aliceblue;
+}
+
+header {
+    text-align: start; 
+    color: dimgray;
+    margin: auto;
+    width: 50%;
+    border: 3px solid lightskyblue;
+    padding: 10px;
+}
+
+div.container1 {
+    text-align: start;
+    color: dimgray;
+    margin: auto;
+    width: 50%;
+    border: 3px solid lightskyblue;
+    padding: 10px;
+}
+
+div.container2 {
+    text-align: start;
+    color: dimgray;
+    margin: auto;
+    width: 50%;
+    border: 3px solid lightskyblue;
+    padding: 10px;
+}
+
+
+.button {
+    background-color: #1A80C2;
+    border: none;
+    color: white;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button2 {
+    background-color:  #1A80C2;
+    border: none;
+    color: white;
+    padding: 15px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
