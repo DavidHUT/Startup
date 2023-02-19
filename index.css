@@ -55,3 +55,14 @@ div.container2 {
     margin: 4px 2px;
     cursor: pointer;
   }
+
+  footer {
+
+    text-align: center;
+    color: dimgray;
+    margin: auto;
+    width: 50%;
+    border: 3px solid lightskyblue;
+    padding: 10px;
+
+  }

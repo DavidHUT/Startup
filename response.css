@@ -115,4 +115,15 @@ div.container3 {
     color: white;
   }
   
+  footer {
+
+    text-align: center;
+    color: dimgray;
+    margin: auto;
+    width: 50%;
+    border: 3px solid lightskyblue;
+    padding: 10px;
+
+  }
+
 
