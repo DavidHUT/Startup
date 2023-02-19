@@ -1,74 +1,92 @@
 <!DOCTYPE html>
 <html>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <head>
-    <link rel="stylesheet" href="response.css" />
-  </head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <body>
-    <h1>Group Activity Vote</h1>
+<head>
+  <link rel="stylesheet" href="response.css" />
+</head>
 
-    <div class="container1">
-      <h2>Are you going?</h2>
-      <div id="YesOrNo">
+<body>
+  <h1>Group Activity Vote</h1>
+
+  <div class="container1">
+    <h2>Are you going?</h2>
+    <div id="YesOrNo">
+      <div class="result">
+        <div class="bar" data-choice="1"></div>
+      </div>
+      <div class="label">
+        <p>Yes <button data-choice="1">Vote</button></p>
+      </div>
+      <div class="result">
+        <div class="bar" data-choice="2"></div>
+      </div>
+      <div class="label">
+        <p>No <button data-choice="2">Vote</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container2">
+    <h2>Where to eat?</h2>
+    <div id="choices">
+      <div class="choice">
         <div class="result">
           <div class="bar" data-choice="1"></div>
         </div>
         <div class="label">
-          <p>Yes <button data-choice="1">Vote</button></p>
+          <p> IHOP <button data-choice="1">Vote</button></p>
         </div>
+      </div>
+      <div class="choice">
         <div class="result">
           <div class="bar" data-choice="2"></div>
         </div>
         <div class="label">
-          <p>No <button data-choice="2">Vote</button></p>
+          <p>Texas Roadhouse <button data-choice="2">Vote</button></p>
+        </div>
+      </div>
+      <div class="choice">
+        <div class="result">
+          <div class="bar" data-choice="3"></div>
+        </div>
+        <div class="label">
+          <p>Burger King <button data-choice="3">Vote</button></p>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="container2">
-      <h2>Where to eat?</h2>
-      <div id="choices">
-        <div class="choice">
-          <div class="result">
-            <div class="bar" data-choice="1"></div>
-          </div>
-          <div class="label">
-            <p> IHOP <button data-choice="1">Vote</button></p>
-          </div>
-        </div>
-        <div class="choice">
-          <div class="result">
-            <div class="bar" data-choice="2"></div>
-          </div>
-          <div class="label">
-            <p>Texas Roadhouse <button data-choice="2">Vote</button></p>
-          </div>
-        </div>
-        <div class="choice">
-          <div class="result">
-            <div class="bar" data-choice="3"></div>
-          </div>
-          <div class="label">
-            <p>Burger King <button data-choice="3">Vote</button></p>
-          </div>
-        </div>
-      </div>
+  <div class="container3">
+    <h2> My Groups </h2>
+
+    <div class="Group 1">
+      <a href="https://thisisfake.org/" class="button">Dinner</a>
     </div>
-
-    <div class="container3">
-      <h2> My Groups </h2>
-
-      <div class="Group 1">
-          <a href="https://thisisfake.org/" class="button">Dinner</a>
-      </div>
-      <div class="Group 2">
-          <a href="https://thisisfake2.org/" class="button2">Party</a>
-      </div>
-      <div class="Group 3">
-          <a href="https://thisisfake3.org/" class="button3">Movies</a>
-      </div>    
+    <div class="Group 2">
+      <a href="https://thisisfake2.org/" class="button2">Party</a>
     </div>
-  </body>
+    <div class="Group 3">
+      <a href="https://thisisfake3.org/" class="button3">Movies</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>Author: David Hernandez</p>
+    <p><a href="https://github.com/DavidHUT/Startup.git">GitHub</a></p>
+
+    <p>Link to other pages in the app</p>
+    <p>
+      <a class="nav-link active" href="index.html">Login Page</a>
+    </p>
+    <p>
+      <a class="nav-link" href="response.html">Response Page</a>
+    </p>
+    <p>
+      <a class="nav-link" href="group.html">Group Page</a>
+    </p>
+  </footer>
+</body>
+
 </html>
