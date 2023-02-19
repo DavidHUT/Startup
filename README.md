@@ -41,3 +41,8 @@ http://3.12.70.15/ <- My Server
 ssh -i [key pair file] ubuntu@[ip address] <- SSH 
 
 
+
+// Start Up Delivarable HTML and CSS
+
+I learned in this section that CSS can be very minimal but also very complicated to get right
+I stuggled alot with lining text up so that It would look presentable and I think it was also a very difficult to think of the colors to use so that the page was more easy on the users eyes. I also learned more about how to implement buttons and the different syles that you can use when you finaly apply the CSS. I did stugle alot with usin alignment for certain things like my email and pass word section, I want to know how to get the boxed the same lenghy so that the page has a more flush look.
