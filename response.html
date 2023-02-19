@@ -1,44 +1,41 @@
 <!DOCTYPE html>
 <html>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<head>
-  <link rel="stylesheet" href="response.css" />
-</head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <link rel="stylesheet" href="response.css" />
+  </head>
 
+  <body>
+    <h1>Group Activity Vote</h1>
 
-<body>
-
-    <h1> Group Activity Vote </h1>
-
-
-    <h2>Are you going?</h2>
-    <div id = "YesOrNo">
+    <div class="container1">
+      <h2>Are you going?</h2>
+      <div id="YesOrNo">
         <div class="result">
-            <div class="bar" data-choice="1"></div>
+          <div class="bar" data-choice="1"></div>
         </div>
         <div class="label">
-            <p>Yes</p>
-            <button data-choice="1">Vote</button>
+          <p>Yes <button data-choice="1">Vote</button></p>
         </div>
         <div class="result">
-            <div class="bar" data-choice="2"></div>
+          <div class="bar" data-choice="2"></div>
         </div>
         <div class="label">
-            <p>No</p>
-            <button data-choice="2">Vote</button>
+          <p>No <button data-choice="2">Vote</button></p>
         </div>
+      </div>
     </div>
 
-    <h2>Where to eat?</h2> 
-    <div id="choices">
+    <div class="container2">
+      <h2>Where to eat?</h2>
+      <div id="choices">
         <div class="choice">
           <div class="result">
             <div class="bar" data-choice="1"></div>
           </div>
           <div class="label">
-            <p>Choice 1</p>
-            <button data-choice="1">Vote</button>
+            <p> IHOP <button data-choice="1">Vote</button></p>
           </div>
         </div>
         <div class="choice">
@@ -46,8 +43,7 @@
             <div class="bar" data-choice="2"></div>
           </div>
           <div class="label">
-            <p>Choice 2</p>
-            <button data-choice="2">Vote</button>
+            <p>Texas Roadhouse <button data-choice="2">Vote</button></p>
           </div>
         </div>
         <div class="choice">
@@ -55,28 +51,24 @@
             <div class="bar" data-choice="3"></div>
           </div>
           <div class="label">
-            <p>Choice 3</p>
-            <button data-choice="3">Vote</button>
+            <p>Burger King <button data-choice="3">Vote</button></p>
           </div>
         </div>
       </div>
-
-
-    <h2> My Groups </h2>
-
-    <div class="Group 1">
-        <h3><a href="https://thisisfake.org/">Dinner</a></h3>
-    </div>
-    <div class="Group 2">
-        <h3><a href="https://thisisfake2.org/">Party</a></h3>
-    </div>
-    <div class="Group 3">
-        <h3><a href="https://thisisfake3.org/">Movies</a></h3>
     </div>
 
+    <div class="container3">
+      <h2> My Groups </h2>
 
-
-
-</body>
-
+      <div class="Group 1">
+          <a href="https://thisisfake.org/" class="button">Dinner</a>
+      </div>
+      <div class="Group 2">
+          <a href="https://thisisfake2.org/" class="button2">Party</a>
+      </div>
+      <div class="Group 3">
+          <a href="https://thisisfake3.org/" class="button3">Movies</a>
+      </div>    
+    </div>
+  </body>
 </html>
