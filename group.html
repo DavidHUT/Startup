@@ -2,28 +2,41 @@
 <html>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <link rel="stylesheet" href="group.css" />
+</head>
 
 <body>
 
 
-    <h1>Group ID</h1>
+    <h1>Group Page</h1>
 
-    <form action="/action_page.php">
-        <label for="GroupToJoin">Group ID:</label>
-        <input type="group" id="group" name="group" />
-        <input type="submit" />
-    </form>
 
-    <h2> My Groups </h2>
 
-    <div class="Group 1">
-        <h3><a href="https://thisisfake.org/">Dinner</a></h3>
+    <div class="container1">
+
+        <p>*This is the group that you want to join*</p>
+
+        <form action="/action_page.php">
+            <label for="GroupToJoin">Group ID:</label>
+            <input type="group" id="group" name="group" />
+            <input type="submit" />
+        </form>
+
     </div>
-    <div class="Group 2">
-        <h3><a href="https://thisisfake2.org/">Party</a></h3>
-    </div>
-    <div class="Group 3">
-        <h3><a href="https://thisisfake3.org/">Movies</a></h3>
+
+    <div class="container2">
+        <h2> My Groups </h2>
+
+        <div class="Group 1">
+            <a href="https://thisisfake.org/" class="button">Dinner</a>
+        </div>
+        <div class="Group 2">
+            <a href="https://thisisfake2.org/" class="button2">Party</a>
+        </div>
+        <div class="Group 3">
+            <a href="https://thisisfake3.org/" class="button3">Movies</a>
+        </div>    
     </div>
 
 
